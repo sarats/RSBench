@@ -150,7 +150,7 @@ int main(int argc, char * argv[])
 		#endif
 	}
 
-	inst_end_instrumentation();
+	inst_finish_instrumentation();
 	stop = omp_get_wtime();
 	#ifndef PAPI
 	printf("\nSimulation Complete.\n");
